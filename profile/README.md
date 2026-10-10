@@ -15,7 +15,7 @@ CI can read them all the same way.
 | <img src="assets/lua-doctor.svg" width="20" height="20" align="absmiddle"> [**lua-doctor**](https://github.com/doctor-labs/lua-doctor) | RCE and backdoors in embedded Lua (LuCI / OpenWrt / CGI) (Lua) | `luarocks install lua-doctor` · `npx @doctor-labs/lua-doctor` |
 | <img src="assets/ble-doctor.svg" width="20" height="20" align="absmiddle"> [**ble-doctor**](https://github.com/doctor-labs/ble-doctor) | Bluetooth Low Energy devices and captures (Rust) | `cargo install ble-doctor` |
 | [**doctor-core**](https://github.com/doctor-labs/doctor-core) | the shared `doctor/1` types: `Envelope`, `Finding`, `Severity`, `sanitize`, `fingerprint`, SARIF builder | `cargo add doctor-core` |
-| <img src="assets/doctor-kit.svg" width="20" height="20" align="absmiddle"> [**doctor-kit**](https://github.com/doctor-labs/doctor-kit) | skeleton library for building a new doctor CLI (`scan`, `shell`, `explore`, `mcp`, `fix`, `install`) | git, crates.io soon |
+| <img src="assets/doctor-kit.svg" width="20" height="20" align="absmiddle"> [**doctor-kit**](https://github.com/doctor-labs/doctor-kit) | skeleton library for building a new doctor CLI (`scan`, `shell`, `explore`, `mcp`, `fix`, `install`) | `cargo add doctor-kit` |
 | [**doctor-template**](https://github.com/doctor-labs/doctor-template) | `cargo-generate` template for a new doctor on doctor-kit | `cargo generate --git https://github.com/doctor-labs/doctor-template template --name foo-doctor` |
 
 ## The contract
