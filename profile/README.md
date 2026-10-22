@@ -9,6 +9,7 @@ CI can read them all the same way.
 
 | tool | examines | install |
 |------|----------|---------|
+| <img src="assets/firmware-doctor.svg" width="20" height="20" align="absmiddle"> [**firmware-doctor**](https://github.com/doctor-labs/firmware-doctor) | embedded firmware images: format map, safe extraction, secrets, ELF hardening, offline SBOM & CVEs (Rust) | `cargo install firmware-doctor` |
 | <img src="assets/sim-doctor.svg" width="20" height="20" align="absmiddle"> [**sim-doctor**](https://github.com/doctor-labs/sim-doctor) | SIM / UICC / eUICC cards over PC/SC (Rust) | `cargo install sim-doctor` · `npx sim-doctor` |
 | <img src="assets/pcap-doctor.svg" width="20" height="20" align="absmiddle"> [**pcap-doctor**](https://github.com/doctor-labs/pcap-doctor) | `.pcap`/`.pcapng` captures: who talked to whom, what crypto, what leaks (Python + tshark) | `pip install pcap-doctor` · `uvx pcap-doctor` · `npx pcap-doctor` |
 | <img src="assets/android-doctor.svg" width="20" height="20" align="absmiddle"> [**android-doctor**](https://github.com/doctor-labs/android-doctor) | Android OTA / firmware images: debuggable, rooted or unsigned builds (Rust) | `cargo install android-doctor` · `npx android-doctor` |
