@@ -1,8 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="firmware-doctor">
-<rect x="2" y="2" width="60" height="60" rx="5" fill="#0a0f13"/>
-<path d="M2 10 V2 H10 M54 2 H62 V10 M62 54 V62 H54 M10 62 H2 V54" stroke="#19c3ab" stroke-width="2" fill="none"/>
-<rect x="20" y="16" width="24" height="24" stroke="#19c3ab" stroke-width="2" fill="none"/>
-<path d="M25 12 V16 M32 12 V16 M39 12 V16 M25 40 V44 M32 40 V44 M39 40 V44 M16 21 H20 M16 28 H20 M16 35 H20 M44 21 H48 M44 28 H48 M44 35 H48" stroke="#19c3ab" stroke-width="1.6" fill="none"/>
-<circle cx="25" cy="21" r="1.5" fill="#2fd27a"/><path d="M26 28 H38 M26 33 H34" stroke="#2fd27a" stroke-width="2" fill="none"/>
-<path d="M10 52 H54" stroke="#2a3a44" stroke-width="1"/><path d="M10 52 H24" stroke="#2fd27a" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="fw-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDBA74"/>
+      <stop offset="0.55" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#C2410C"/>
+    </linearGradient>
+    <filter id="fw-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#fw-shadow)">
+    <g fill="#C2410C">
+      <rect x="43" y="18" width="6" height="14" rx="1.5"/>
+      <rect x="55" y="18" width="6" height="14" rx="1.5"/>
+      <rect x="67" y="18" width="6" height="14" rx="1.5"/>
+      <rect x="79" y="18" width="6" height="14" rx="1.5"/>
+      <rect x="43" y="80" width="6" height="14" rx="1.5"/>
+      <rect x="55" y="80" width="6" height="14" rx="1.5"/>
+      <rect x="67" y="80" width="6" height="14" rx="1.5"/>
+      <rect x="79" y="80" width="6" height="14" rx="1.5"/>
+      <rect x="27" y="35" width="9" height="6" rx="1.5"/>
+      <rect x="27" y="47" width="9" height="6" rx="1.5"/>
+      <rect x="27" y="59" width="9" height="6" rx="1.5"/>
+      <rect x="27" y="71" width="9" height="6" rx="1.5"/>
+      <rect x="92" y="35" width="9" height="6" rx="1.5"/>
+      <rect x="92" y="47" width="9" height="6" rx="1.5"/>
+      <rect x="92" y="59" width="9" height="6" rx="1.5"/>
+      <rect x="92" y="71" width="9" height="6" rx="1.5"/>
+    </g>
+    <rect x="36" y="30" width="56" height="52" rx="8" fill="url(#fw-body)"/>
+    <rect x="50" y="44" width="28" height="24" rx="4" fill="#FFF7ED"/>
+    <circle cx="55" cy="50" r="2.5" fill="#C2410C"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g>
 </svg>

@@ -1,6 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="ble-doctor">
-<rect x="2" y="2" width="60" height="60" rx="5" fill="#0a0f13"/>
-<path d="M2 10 V2 H10 M54 2 H62 V10 M62 54 V62 H54 M10 62 H2 V54" stroke="#19c3ab" stroke-width="2" fill="none"/>
-<path d="M27 14 L39 23 L23 33 L39 43 L27 52 V14 M23 33 L17 28 M23 33 L17 38" stroke="#19c3ab" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" fill="none"/>
-<path d="M44 26 a8 8 0 0 1 0 12 M48 22 a14 14 0 0 1 0 20" stroke="#2fd27a" stroke-width="2" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="ble-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5CB8FF"/>
+      <stop offset="0.6" stop-color="#0082FC"/>
+      <stop offset="1" stop-color="#0060C0"/>
+    </linearGradient>
+    <filter id="ble-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#ble-shadow)">
+    <path d="M88.4 34.6 A9 9 0 0 1 88.4 47.4 M94 29 A17 17 0 0 1 94 53" fill="none" stroke="#5AB0FF" stroke-width="4" stroke-linecap="round"/>
+    <rect x="28" y="14" width="54" height="54" rx="14" fill="url(#ble-body)"/>
+    <g transform="translate(31 17) scale(2)" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6.5 7.5 L17.5 16.5 L12 21 V3 L17.5 7.5 L6.5 16.5"/>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g>
 </svg>

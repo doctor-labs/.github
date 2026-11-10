@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1020"/><stop offset="0.55" stop-color="#111B3D"/><stop offset="1" stop-color="#1F1240"/></linearGradient>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#FFFFFF" fill-opacity="0.07"/></pattern>
+<radialGradient id="halo1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0.30"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.25"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl0" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#F97316" stop-opacity="0.42"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0.42"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3DDC84" stop-opacity="0.42"/><stop offset="1" stop-color="#3DDC84" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl3" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3B82F6" stop-opacity="0.42"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl4" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8EA2FF" stop-opacity="0.42"/><stop offset="1" stop-color="#8EA2FF" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl5" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#0A84FF" stop-opacity="0.42"/><stop offset="1" stop-color="#0A84FF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="400" fill="url(#bg)"/>
+<rect width="1280" height="400" fill="url(#dots)"/>
+<circle cx="1080" cy="200" r="400" fill="url(#halo1)"/>
+<circle cx="170" cy="60" r="280" fill="url(#halo2)"/>
+<circle cx="1080" cy="200" r="118" fill="none" stroke="#64748B" stroke-width="1.5" stroke-dasharray="3 7" opacity="0.8"/>
+<circle cx="1080" cy="82" r="92" fill="url(#gl0)"/>
+<circle cx="1182" cy="141" r="92" fill="url(#gl1)"/>
+<circle cx="1182" cy="259" r="92" fill="url(#gl2)"/>
+<circle cx="1080" cy="318" r="92" fill="url(#gl3)"/>
+<circle cx="978" cy="259" r="92" fill="url(#gl4)"/>
+<circle cx="978" cy="141" r="92" fill="url(#gl5)"/>
+<g transform="translate(1028 30) scale(0.8125) rotate(-8 64 64)"><defs>
+    <linearGradient id="fw-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDBA74"/>
+      <stop offset="0.55" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#C2410C"/>
+    </linearGradient>
+    <filter id="fw-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#fw-shadow)">
+    <g fill="#C2410C">
+      <rect x="43" y="18" width="6" height="14" rx="1.5"/>
+      <rect x="55" y="18" width="6" height="14" rx="1.5"/>
+      <rect x="67" y="18" width="6" height="14" rx="1.5"/>
+      <rect x="79" y="18" width="6" height="14" rx="1.5"/>
+      <rect x="43" y="80" width="6" height="14" rx="1.5"/>
+      <rect x="55" y="80" width="6" height="14" rx="1.5"/>
+      <rect x="67" y="80" width="6" height="14" rx="1.5"/>
+      <rect x="79" y="80" width="6" height="14" rx="1.5"/>
+      <rect x="27" y="35" width="9" height="6" rx="1.5"/>
+      <rect x="27" y="47" width="9" height="6" rx="1.5"/>
+      <rect x="27" y="59" width="9" height="6" rx="1.5"/>
+      <rect x="27" y="71" width="9" height="6" rx="1.5"/>
+      <rect x="92" y="35" width="9" height="6" rx="1.5"/>
+      <rect x="92" y="47" width="9" height="6" rx="1.5"/>
+      <rect x="92" y="59" width="9" height="6" rx="1.5"/>
+      <rect x="92" y="71" width="9" height="6" rx="1.5"/>
+    </g>
+    <rect x="36" y="30" width="56" height="52" rx="8" fill="url(#fw-body)"/>
+    <rect x="50" y="44" width="28" height="24" rx="4" fill="#FFF7ED"/>
+    <circle cx="55" cy="50" r="2.5" fill="#C2410C"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g></g>
+<g transform="translate(1130 89) scale(0.8125) rotate(6 64 64)"><defs>
+    <linearGradient id="sim-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="sim-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="sim-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#sim-shadow)">
+    <path d="M40 8 H80 L96 24 V84 Q96 92 88 92 H40 Q32 92 32 84 V16 Q32 8 40 8 Z" fill="url(#sim-body)"/>
+    <g fill="url(#sim-gold)">
+      <rect x="44" y="26" width="16" height="12" rx="2.5"/>
+      <rect x="68" y="26" width="16" height="12" rx="2.5"/>
+      <rect x="44" y="42" width="16" height="12" rx="2.5"/>
+      <rect x="68" y="42" width="16" height="12" rx="2.5"/>
+      <rect x="44" y="58" width="16" height="12" rx="2.5"/>
+      <rect x="68" y="58" width="16" height="12" rx="2.5"/>
+    </g>
+    <rect x="44" y="78" width="40" height="4" rx="2" fill="#CCFBF1" opacity="0.7"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g></g>
+<g transform="translate(1130 207) scale(0.8125) rotate(-5 64 64)"><defs>
+    <linearGradient id="and-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8EF0B5"/>
+      <stop offset="0.5" stop-color="#3DDC84"/>
+      <stop offset="1" stop-color="#1FA35A"/>
+    </linearGradient>
+    <filter id="and-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#and-shadow)">
+    <path d="M46 36 L38 16 M82 36 L90 16" stroke="#1FA35A" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="38" cy="15" r="4.5" fill="#1FA35A"/>
+    <circle cx="90" cy="15" r="4.5" fill="#1FA35A"/>
+    <path d="M28 66 A36 36 0 0 1 100 66 V90 Q100 98 92 98 H36 Q28 98 28 90 Z" fill="url(#and-body)"/>
+    <circle cx="50" cy="58" r="6.5" fill="#14532D"/>
+    <circle cx="78" cy="58" r="6.5" fill="#14532D"/>
+    <circle cx="52" cy="56" r="2" fill="#ECFDF5"/>
+    <circle cx="80" cy="56" r="2" fill="#ECFDF5"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g></g>
+<g transform="translate(1028 266) scale(0.8125) rotate(7 64 64)"><defs>
+    <linearGradient id="pcap-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93C5FD"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="pcap-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#pcap-shadow)">
+    <rect x="28" y="12" width="72" height="80" rx="10" fill="url(#pcap-body)"/>
+    <path d="M28 34 V22 Q28 12 38 12 H90 Q100 12 100 22 V34 Z" fill="#1E40AF"/>
+    <circle cx="38" cy="23" r="3.2" fill="#BFDBFE"/>
+    <circle cx="48" cy="23" r="3.2" fill="#BFDBFE"/>
+    <circle cx="58" cy="23" r="3.2" fill="#BFDBFE"/>
+    <rect x="34" y="42" width="60" height="44" rx="6" fill="#EFF6FF"/>
+    <g fill="#2563EB">
+      <rect x="41" y="56" width="6" height="16" rx="3"/>
+      <rect x="51" y="49" width="6" height="30" rx="3"/>
+      <rect x="61" y="53" width="6" height="22" rx="3"/>
+      <rect x="71" y="46" width="6" height="36" rx="3"/>
+      <rect x="81" y="54" width="6" height="20" rx="3"/>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g></g>
+<g transform="translate(926 207) scale(0.8125) rotate(-6 64 64)"><defs>
+    <linearGradient id="lua-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4347A0"/>
+      <stop offset="0.5" stop-color="#2C2D72"/>
+      <stop offset="1" stop-color="#1E1F52"/>
+    </linearGradient>
+    <filter id="lua-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#lua-shadow)">
+    <circle cx="30" cy="28" r="3" fill="#8EA2FF"/>
+    <ellipse cx="64" cy="62" rx="46" ry="14" transform="rotate(-20 64 62)" fill="none" stroke="#8EA2FF" stroke-width="3"/>
+    <g transform="translate(64 64) scale(0.9) translate(-64 -64)">
+      <path d="M98.4 73.2 A40 40 0 1 1 53.38 22.56 A34 34 0 0 0 98.4 73.2 Z" fill="url(#lua-body)" stroke="#8EA2FF" stroke-width="2.8" stroke-linejoin="round"/>
+    </g>
+    <circle cx="91" cy="42" r="6.5" fill="#8EA2FF"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g></g>
+<g transform="translate(926 89) scale(0.8125) rotate(5 64 64)"><defs>
+    <linearGradient id="ble-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5CB8FF"/>
+      <stop offset="0.6" stop-color="#0082FC"/>
+      <stop offset="1" stop-color="#0060C0"/>
+    </linearGradient>
+    <filter id="ble-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#ble-shadow)">
+    <path d="M88.4 34.6 A9 9 0 0 1 88.4 47.4 M94 29 A17 17 0 0 1 94 53" fill="none" stroke="#5AB0FF" stroke-width="4" stroke-linecap="round"/>
+    <rect x="28" y="14" width="54" height="54" rx="14" fill="url(#ble-body)"/>
+    <g transform="translate(31 17) scale(2)" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6.5 7.5 L17.5 16.5 L12 21 V3 L17.5 7.5 L6.5 16.5"/>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g></g>
+<g transform="translate(96 120) scale(1.25)"><defs>
+    <linearGradient id="labs-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#19c3ab"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <filter id="labs-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="b"/>
+      <feOffset in="b" dx="0" dy="2.5" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#labs-bg)"/>
+  <g transform="translate(7 7)" filter="url(#labs-shadow)">
+    <circle cx="56" cy="66" r="26" fill="none" stroke="#FFFFFF" stroke-width="9"/>
+    <path d="M82 66 V22" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="82" cy="20" r="8" fill="#FFFFFF"/>
+    <rect x="46" y="56" width="20" height="20" rx="4" fill="#FFFFFF"/>
+    <rect x="52" y="62" width="8" height="8" rx="2" fill="#19c3ab"/>
+    <circle cx="56" cy="92" r="10" fill="#FFFFFF" stroke="#19c3ab" stroke-width="3"/>
+    <circle cx="56" cy="92" r="3.5" fill="#19c3ab"/>
+  </g></g>
+<text x="286" y="190" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="80" font-weight="800" letter-spacing="-1" fill="#F8FAFC">doctor·labs</text>
+<text x="288" y="242" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#A5B4FC">Offline security doctors for</text>
+<text x="288" y="274" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#A5B4FC">embedded &amp; hardware targets</text>
+<path d="M960 40 Q960 52 972 52 Q960 52 960 64 Q960 52 948 52 Q960 52 960 40 Z" fill="#FDE68A"/>
+<path d="M1232 64 Q1232 74 1242 74 Q1232 74 1232 84 Q1232 74 1222 74 Q1232 74 1232 64 Z" fill="#FDE68A"/>
+<path d="M1252 288 Q1252 300 1264 300 Q1252 300 1252 312 Q1252 300 1240 300 Q1252 300 1252 288 Z" fill="#FDE68A"/>
+<path d="M930 342 Q930 352 940 352 Q930 352 930 362 Q930 352 920 352 Q930 352 930 342 Z" fill="#FDE68A"/>
+<path d="M1200 360 Q1200 368 1208 368 Q1200 368 1200 376 Q1200 368 1192 368 Q1200 368 1200 360 Z" fill="#FDE68A"/>
+</svg>

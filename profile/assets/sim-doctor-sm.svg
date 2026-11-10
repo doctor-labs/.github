@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs><linearGradient id="sm-sim-doctor-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5EEAD4"/><stop offset="1" stop-color="#0F766E"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-sim-doctor-g)"/>
+
+<path d="M40 22 H74 L94 42 V102 Q94 110 86 110 H42 Q34 110 34 102 V30 Q34 22 42 22 Z" fill="#F0FDFA"/>
+<g fill="#F59E0B"><rect x="42" y="44" width="20" height="20" rx="4"/><rect x="66" y="44" width="20" height="20" rx="4"/><rect x="42" y="70" width="20" height="20" rx="4"/><rect x="66" y="70" width="20" height="20" rx="4"/></g>
+</svg>

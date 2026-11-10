@@ -1,7 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="android-doctor">
-<rect x="2" y="2" width="60" height="60" rx="5" fill="#0a0f13"/>
-<path d="M2 10 V2 H10 M54 2 H62 V10 M62 54 V62 H54 M10 62 H2 V54" stroke="#19c3ab" stroke-width="2" fill="none"/>
-<path d="M22 12 H42 V46 H22 Z" stroke="#19c3ab" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" fill="none"/><path d="M26 17 H38 V38 H26 Z" stroke="#19c3ab" stroke-width="1.2" fill="none"/>
-<path d="M32 21 V32 M28 28 L32 32 L36 28" stroke="#2fd27a" stroke-width="2" fill="none"/>
-<path d="M10 52 H54" stroke="#2a3a44" stroke-width="1"/><path d="M10 52 H24" stroke="#2fd27a" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="and-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8EF0B5"/>
+      <stop offset="0.5" stop-color="#3DDC84"/>
+      <stop offset="1" stop-color="#1FA35A"/>
+    </linearGradient>
+    <filter id="and-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#and-shadow)">
+    <path d="M46 36 L38 16 M82 36 L90 16" stroke="#1FA35A" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="38" cy="15" r="4.5" fill="#1FA35A"/>
+    <circle cx="90" cy="15" r="4.5" fill="#1FA35A"/>
+    <path d="M28 66 A36 36 0 0 1 100 66 V90 Q100 98 92 98 H36 Q28 98 28 90 Z" fill="url(#and-body)"/>
+    <circle cx="50" cy="58" r="6.5" fill="#14532D"/>
+    <circle cx="78" cy="58" r="6.5" fill="#14532D"/>
+    <circle cx="52" cy="56" r="2" fill="#ECFDF5"/>
+    <circle cx="80" cy="56" r="2" fill="#ECFDF5"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g>
 </svg>

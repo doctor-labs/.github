@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs><linearGradient id="why-evidence-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#why-evidence-g)"/>
+
+<circle cx="56" cy="56" r="28" fill="#DBEAFE" stroke="#FFFFFF" stroke-width="10"/>
+<path d="M76 76 L100 100" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+<path d="M42 56 L52 66 L70 46" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
