@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs><linearGradient id="why-offline-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5EEAD4"/><stop offset="1" stop-color="#0F766E"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#why-offline-g)"/>
+
+<g fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round">
+<path d="M49.9 81.9 A20 20 0 0 1 78.1 81.9"/><path d="M37.1 69.1 A38 38 0 0 1 90.9 69.1"/><path d="M24.4 56.4 A56 56 0 0 1 103.6 56.4"/></g>
+<circle cx="64" cy="96" r="8" fill="#FFFFFF"/>
+<path d="M30 30 L98 98" stroke="#134E4A" stroke-width="10" stroke-linecap="round"/>
+</svg>

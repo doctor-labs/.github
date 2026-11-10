@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs><linearGradient id="why-contract-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#why-contract-g)"/>
+
+<rect x="26" y="36" width="76" height="56" rx="9" fill="#FFFFFF"/>
+<path d="M30 42 L64 68 L98 42" fill="none" stroke="#6D28D9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

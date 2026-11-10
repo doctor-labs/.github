@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs><linearGradient id="sm-doctor-kit-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-doctor-kit-g)"/>
+
+<g transform="translate(64 64) scale(2.1) translate(-64 -66)"><path d="M58 52 H70 V60 H78 V72 H70 V80 H58 V72 H50 V60 H58 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>

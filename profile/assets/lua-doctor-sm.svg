@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs><linearGradient id="sm-lua-doctor-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4347A0"/><stop offset="1" stop-color="#1E1F52"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-lua-doctor-g)"/>
+
+<g transform="translate(4 2)"><path d="M98.4 73.2 A40 40 0 1 1 53.38 22.56 A34 34 0 0 0 98.4 73.2 Z" fill="#E0E7FF"/></g>
+<circle cx="98" cy="34" r="8" fill="#E0E7FF"/>
+</svg>

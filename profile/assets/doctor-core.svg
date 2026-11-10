@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="core-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#64748B"/>
+      <stop offset="0.5" stop-color="#475569"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <filter id="core-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="o"/>
+      <feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#core-shadow)">
+    <path d="M64 10 L100 22 V58 C100 82 84 98 64 106 C44 98 28 82 28 58 V22 Z" fill="url(#core-body)" stroke="#94A3B8" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M64 20 L92 30 V58 C92 78 80 90 64 98 C48 90 36 78 36 58 V30 Z" fill="none" stroke="#94A3B8" stroke-width="2" opacity="0.5" stroke-linejoin="round"/>
+    <g fill="none" stroke="#22D3EE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M56 40 Q46 40 46 50 V58 Q46 64 40 64 Q46 64 46 70 V78 Q46 88 56 88"/>
+      <path d="M72 40 Q82 40 82 50 V58 Q82 64 88 64 Q82 64 82 70 V78 Q82 88 72 88"/>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#475569" stroke-width="11"/>
+      <path d="M18 40 V76 C18 96 38 104 64 104 C90 104 110 96 110 76 V40" stroke="#F1F5F9" stroke-width="5"/>
+    </g>
+    <circle cx="18" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="110" cy="40" r="6" fill="#F1F5F9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="64" cy="104" r="12" fill="#F1F5F9" stroke="#475569" stroke-width="3"/>
+    <circle cx="64" cy="104" r="4.5" fill="#94A3B8"/>
+  </g>
+</svg>

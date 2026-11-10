@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260" width="1100" height="260">
+<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#64748B"/></marker></defs>
+<rect x="0.5" y="0.5" width="1099" height="259" rx="22" fill="#0F172A" stroke="#1E293B"/>
+<rect x="28" y="34" width="212" height="26" rx="8" fill="#1E293B"/>
+<g transform="translate(32 35) scale(0.1875)"><defs><linearGradient id="sm-firmware-doctor-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDBA74"/><stop offset="1" stop-color="#C2410C"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-firmware-doctor-g)"/>
+
+<g fill="#9A3412"><rect x="46" y="26" width="8" height="14" rx="2"/><rect x="60" y="26" width="8" height="14" rx="2"/><rect x="74" y="26" width="8" height="14" rx="2"/><rect x="46" y="88" width="8" height="14" rx="2"/><rect x="60" y="88" width="8" height="14" rx="2"/><rect x="74" y="88" width="8" height="14" rx="2"/><rect x="26" y="46" width="14" height="8" rx="2"/><rect x="26" y="60" width="14" height="8" rx="2"/><rect x="26" y="74" width="14" height="8" rx="2"/><rect x="88" y="46" width="14" height="8" rx="2"/><rect x="88" y="60" width="14" height="8" rx="2"/><rect x="88" y="74" width="14" height="8" rx="2"/></g>
+<rect x="40" y="40" width="48" height="48" rx="8" fill="#FFF7ED"/>
+<rect x="56" y="56" width="16" height="16" rx="3" fill="#EA580C"/></g>
+<text x="66" y="52" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#E2E8F0">firmware-doctor</text>
+<path d="M240 47 C285 47, 285 122, 330 122" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="28" y="64" width="212" height="26" rx="8" fill="#1E293B"/>
+<g transform="translate(32 65) scale(0.1875)"><defs><linearGradient id="sm-sim-doctor-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5EEAD4"/><stop offset="1" stop-color="#0F766E"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-sim-doctor-g)"/>
+
+<path d="M40 22 H74 L94 42 V102 Q94 110 86 110 H42 Q34 110 34 102 V30 Q34 22 42 22 Z" fill="#F0FDFA"/>
+<g fill="#F59E0B"><rect x="42" y="44" width="20" height="20" rx="4"/><rect x="66" y="44" width="20" height="20" rx="4"/><rect x="42" y="70" width="20" height="20" rx="4"/><rect x="66" y="70" width="20" height="20" rx="4"/></g></g>
+<text x="66" y="82" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#E2E8F0">sim-doctor</text>
+<path d="M240 77 C285 77, 285 122, 330 122" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="28" y="94" width="212" height="26" rx="8" fill="#1E293B"/>
+<g transform="translate(32 95) scale(0.1875)"><defs><linearGradient id="sm-pcap-doctor-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-pcap-doctor-g)"/>
+
+<rect x="26" y="28" width="76" height="72" rx="12" fill="#EFF6FF"/>
+<g fill="#2563EB"><rect x="36" y="58" width="11" height="30" rx="5.5"/><rect x="52" y="46" width="11" height="42" rx="5.5"/><rect x="68" y="62" width="11" height="26" rx="5.5"/><rect x="84" y="50" width="11" height="38" rx="5.5"/></g></g>
+<text x="66" y="112" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#E2E8F0">pcap-doctor</text>
+<path d="M240 107 C285 107, 285 122, 330 122" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="28" y="124" width="212" height="26" rx="8" fill="#1E293B"/>
+<g transform="translate(32 125) scale(0.1875)"><defs><linearGradient id="sm-android-doctor-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3DDC84"/><stop offset="1" stop-color="#15803D"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-android-doctor-g)"/>
+
+<g transform="translate(0 6)">
+<path d="M46 40 L38 18 M82 40 L90 18" stroke="#ECFDF5" stroke-width="6" stroke-linecap="round"/>
+<circle cx="37" cy="16" r="5" fill="#ECFDF5"/><circle cx="91" cy="16" r="5" fill="#ECFDF5"/>
+<path d="M26 72 A38 38 0 0 1 102 72 V90 Q102 100 92 100 H36 Q26 100 26 90 Z" fill="#ECFDF5"/>
+<circle cx="50" cy="70" r="7" fill="#14532D"/><circle cx="78" cy="70" r="7" fill="#14532D"/></g></g>
+<text x="66" y="142" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#E2E8F0">android-doctor</text>
+<path d="M240 137 C285 137, 285 122, 330 122" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="28" y="154" width="212" height="26" rx="8" fill="#1E293B"/>
+<g transform="translate(32 155) scale(0.1875)"><defs><linearGradient id="sm-lua-doctor-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4347A0"/><stop offset="1" stop-color="#1E1F52"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-lua-doctor-g)"/>
+
+<g transform="translate(4 2)"><path d="M98.4 73.2 A40 40 0 1 1 53.38 22.56 A34 34 0 0 0 98.4 73.2 Z" fill="#E0E7FF"/></g>
+<circle cx="98" cy="34" r="8" fill="#E0E7FF"/></g>
+<text x="66" y="172" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#E2E8F0">lua-doctor</text>
+<path d="M240 167 C285 167, 285 122, 330 122" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="28" y="184" width="212" height="26" rx="8" fill="#1E293B"/>
+<g transform="translate(32 185) scale(0.1875)"><defs><linearGradient id="sm-ble-doctor-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38B6FF"/><stop offset="1" stop-color="#0060C0"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="30" fill="url(#sm-ble-doctor-g)"/>
+
+<g transform="translate(64 64) scale(2.7) translate(-12 -12)" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 7.5 L17.5 16.5 L12 21 V3 L17.5 7.5 L6.5 16.5"/></g></g>
+<text x="66" y="202" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#E2E8F0">ble-doctor</text>
+<path d="M240 197 C285 197, 285 122, 330 122" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="330" y="34" width="270" height="176" rx="16" fill="#172554" stroke="#6366F1" stroke-width="2"/>
+<text x="354" y="62" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#E0E7FF">doctor/1 envelope</text>
+<text x="354" y="92" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#C7D2FE">schema</text>
+<text x="354" y="114" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#C7D2FE">tool</text>
+<text x="354" y="136" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#C7D2FE">version</text>
+<text x="354" y="158" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#C7D2FE">exit_code</text>
+<text x="490" y="92" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#C7D2FE">score</text>
+<text x="490" y="114" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#C7D2FE">findings</text>
+<text x="490" y="136" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#C7D2FE">data</text>
+<text x="354" y="196" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#A5B4FC">one shape for every tool</text>
+<path d="M600 122 C660 122, 660 54, 720 54" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="720" y="34" width="352" height="41" rx="10" fill="#1E293B" stroke="#334155"/>
+<text x="740" y="52" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">CLI --json</text>
+<text x="740" y="69" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8">same envelope on stdout</text>
+<path d="M600 122 C660 122, 660 99, 720 99" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="720" y="79" width="352" height="41" rx="10" fill="#1E293B" stroke="#334155"/>
+<text x="740" y="97" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">SARIF</text>
+<text x="740" y="114" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8">findings for code scanning</text>
+<path d="M600 122 C660 122, 660 144, 720 144" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="720" y="124" width="352" height="41" rx="10" fill="#1E293B" stroke="#334155"/>
+<text x="740" y="142" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">MCP server</text>
+<text x="740" y="159" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8">same JSON as the CLI</text>
+<path d="M600 122 C660 122, 660 189, 720 189" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="720" y="169" width="352" height="41" rx="10" fill="#1E293B" stroke="#334155"/>
+<text x="740" y="187" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">Baseline diff</text>
+<text x="740" y="204" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8">new vs baseline, exit 3</text>
+<text x="28" y="246" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8">exit codes</text>
+<rect x="120" y="230" width="110" height="24" rx="12" fill="#14532D" stroke="#22C55E"/>
+<text x="175.0" y="246" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#DCFCE7">0 clean</text>
+<rect x="242" y="230" width="130" height="24" rx="12" fill="#78350F" stroke="#F59E0B"/>
+<text x="307.0" y="246" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#FEF3C7">1 findings</text>
+<rect x="384" y="230" width="110" height="24" rx="12" fill="#7F1D1D" stroke="#F87171"/>
+<text x="439.0" y="246" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#FEE2E2">2 error</text>
+<rect x="506" y="230" width="180" height="24" rx="12" fill="#4C1D95" stroke="#A78BFA"/>
+<text x="596.0" y="246" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EDE9FE">3 new-vs-baseline</text>
+</svg>
